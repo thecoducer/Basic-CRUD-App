@@ -1,0 +1,22 @@
+server:
+  port: 8093
+
+spring:
+  application:
+    name: basic-crud-app
+  data:
+    jpa:
+      repositories:
+        enabled: true
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    password: Mayukh1475
+    url: jdbc:mysql://localhost:3306/crud_app_db
+    username: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
+
+
+
+
